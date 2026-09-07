@@ -2,6 +2,8 @@
 
 RIFT is a hackathon prototype that combines a real-world 3D map with a locally served ML stack for disaster-risk and infrastructure-impact simulations.
 
+<!-- The repository layout below mirrors the deployable project shape. -->
+
 ## What is in this repository
 
 ```text
