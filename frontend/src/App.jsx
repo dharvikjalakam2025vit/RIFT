@@ -88,7 +88,7 @@ function App() {
   routeAnalysisRef.current = routeAnalysis;
 
   const removeRouteOverlays = useCallback(() => {
-    const map = mapRef.current;
+    const map = mapRef.current;// Render the main application view using the currently selected state.
     if (!map) return;
     if (routeOverlayRef.current) removeOverlay(map, routeOverlayRef.current);
     routeOverlayRef.current = null;
