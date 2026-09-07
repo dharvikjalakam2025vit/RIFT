@@ -10,3 +10,5 @@ with open(args.file, encoding='utf-8') as f:
 r = requests.post(f'{args.url}/predict/{args.endpoint}', json=data, timeout=20)
 r.raise_for_status()
 print(json.dumps(r.json(), indent=2))
+# Run inference using the prepared model and input features.
+# The prediction output is returned without modifying the trained model.
