@@ -27,6 +27,7 @@ const RESET_METRICS = { affectedCells: 0, affectedPercent: 0, averageWaterDepth:
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function App() {
+  // Refs hold map and simulation handles without forcing a render on every tick.
   const mapHost = useRef(null);
   const mapRef = useRef(null);
   const markerRefs = useRef([]);
