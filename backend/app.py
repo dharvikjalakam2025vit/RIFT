@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 app = FastAPI(title='RIFT ML Inference API', version='1.0.0')
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_credentials=True, allow_methods=['*'], allow_headers=['*'])
 
+# Keep the root endpoint lightweight so it doubles as a quick smoke check.
 @app.get('/')
 def root():
     return {'service': 'RIFT ML Inference API', 'status': 'ok', 'docs': '/docs'}
