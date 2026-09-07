@@ -1,0 +1,36 @@
+{
+  "name": "flood_risk_v1",
+  "artifact": "ml/models/flood_risk_v1.joblib",
+  "status": "trained_demo_artifact",
+  "training_data": "deterministic repository demo dataset",
+  "metrics": {
+    "model_version": "flood_risk_v1",
+    "training_rows": 32000,
+    "test_rows": 8000,
+    "features": [
+      "rainfall_mm",
+      "cumulative_rainfall_mm",
+      "elevation_m",
+      "slope_deg",
+      "drainage_capacity",
+      "river_discharge_m3s",
+      "water_level_m",
+      "population_density",
+      "historical_flood",
+      "flood_control_infrastructure",
+      "urban",
+      "soil_type_clay",
+      "soil_type_loam",
+      "soil_type_peat",
+      "soil_type_sandy",
+      "soil_type_silt"
+    ],
+    "accuracy": 0.912125,
+    "precision_weighted": 0.9146602872529077,
+    "recall_weighted": 0.912125,
+    "f1_weighted": 0.9131481337487262,
+    "roc_auc": 0.96511177615792
+  },
+  "intended_use": "hackathon prototype / integration testing",
+  "not_for": "operational emergency forecasting or public safety decisions"
+}

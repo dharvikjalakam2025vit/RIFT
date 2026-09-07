@@ -1,0 +1,18 @@
+{
+  "model_version": "cyclone_impact_v1",
+  "training_rows": 24000,
+  "test_rows": 6000,
+  "features": [
+    "current_wind_kts",
+    "pressure_hpa",
+    "latitude",
+    "longitude",
+    "storm_speed_kts",
+    "storm_direction_deg",
+    "rainfall_mm_h",
+    "distance_to_coast_km"
+  ],
+  "mae": 2.2596955531636147,
+  "rmse": 3.000576981132792,
+  "r2": 0.9722132305125408
+}

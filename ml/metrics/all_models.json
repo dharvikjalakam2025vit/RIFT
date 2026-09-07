@@ -1,0 +1,88 @@
+{
+  "flood_risk_v1": {
+    "model_version": "flood_risk_v1",
+    "training_rows": 32000,
+    "test_rows": 8000,
+    "features": [
+      "rainfall_mm",
+      "cumulative_rainfall_mm",
+      "elevation_m",
+      "slope_deg",
+      "drainage_capacity",
+      "river_discharge_m3s",
+      "water_level_m",
+      "population_density",
+      "historical_flood",
+      "flood_control_infrastructure",
+      "urban",
+      "soil_type_clay",
+      "soil_type_loam",
+      "soil_type_peat",
+      "soil_type_sandy",
+      "soil_type_silt"
+    ],
+    "accuracy": 0.912125,
+    "precision_weighted": 0.9146602872529077,
+    "recall_weighted": 0.912125,
+    "f1_weighted": 0.9131481337487262,
+    "roc_auc": 0.96511177615792
+  },
+  "cyclone_impact_v1": {
+    "model_version": "cyclone_impact_v1",
+    "training_rows": 24000,
+    "test_rows": 6000,
+    "features": [
+      "current_wind_kts",
+      "pressure_hpa",
+      "latitude",
+      "longitude",
+      "storm_speed_kts",
+      "storm_direction_deg",
+      "rainfall_mm_h",
+      "distance_to_coast_km"
+    ],
+    "mae": 2.2596955531636147,
+    "rmse": 3.000576981132792,
+    "r2": 0.9722132305125408
+  },
+  "earthquake_impact_v1": {
+    "model_version": "earthquake_impact_v1",
+    "training_rows": 24000,
+    "test_rows": 6000,
+    "features": [
+      "magnitude",
+      "depth_km",
+      "distance_to_target_km",
+      "site_amplification",
+      "population_density",
+      "soil_factor"
+    ],
+    "mae": 0.021769518444162004,
+    "rmse": 0.027437405297653338,
+    "r2": 0.969995957742859
+  },
+  "infrastructure_vulnerability_v1": {
+    "model_version": "infrastructure_vulnerability_v1",
+    "training_rows": 28000,
+    "test_rows": 7000,
+    "features": [
+      "hazard_exposure",
+      "elevation_m",
+      "asset_age_years",
+      "criticality",
+      "accessibility",
+      "power_availability",
+      "asset_type_bridge",
+      "asset_type_drainage",
+      "asset_type_fire_station",
+      "asset_type_hospital",
+      "asset_type_shelter",
+      "asset_type_substation"
+    ],
+    "accuracy": 0.8615714285714285,
+    "precision_weighted": 0.8637898937519328,
+    "recall_weighted": 0.8615714285714285,
+    "f1_weighted": 0.8623893833859968,
+    "roc_auc": 0.9599856082157664
+  }
+}

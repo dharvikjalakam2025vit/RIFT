@@ -1,0 +1,16 @@
+{
+  "model_version": "earthquake_impact_v1",
+  "training_rows": 24000,
+  "test_rows": 6000,
+  "features": [
+    "magnitude",
+    "depth_km",
+    "distance_to_target_km",
+    "site_amplification",
+    "population_density",
+    "soil_factor"
+  ],
+  "mae": 0.021769518444162004,
+  "rmse": 0.027437405297653338,
+  "r2": 0.969995957742859
+}

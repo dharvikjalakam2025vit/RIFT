@@ -1,0 +1,43 @@
+{
+  "flood": {
+    "rainfall_mm": 85,
+    "cumulative_rainfall_mm": 150,
+    "elevation_m": 12,
+    "slope_deg": 1.8,
+    "drainage_capacity": 0.3,
+    "river_discharge_m3s": 250,
+    "water_level_m": 1.7,
+    "population_density": 6500,
+    "historical_flood": 1,
+    "flood_control_infrastructure": 0,
+    "urban": 1,
+    "soil_type": "clay"
+  },
+  "cyclone": {
+    "current_wind_kts": 55,
+    "pressure_hpa": 950,
+    "latitude": 18.5,
+    "longitude": 72.8,
+    "storm_speed_kts": 10,
+    "storm_direction_deg": 285,
+    "rainfall_mm_h": 40,
+    "distance_to_coast_km": 65
+  },
+  "earthquake": {
+    "magnitude": 6.4,
+    "depth_km": 18,
+    "distance_to_target_km": 45,
+    "site_amplification": 0.7,
+    "population_density": 8500,
+    "soil_factor": 0.6
+  },
+  "infrastructure": {
+    "hazard_exposure": 0.78,
+    "elevation_m": 18,
+    "asset_age_years": 45,
+    "criticality": 0.92,
+    "accessibility": 0.42,
+    "power_availability": 0.6,
+    "asset_type": "hospital"
+  }
+}
